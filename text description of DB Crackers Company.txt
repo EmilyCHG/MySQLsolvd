@@ -1,0 +1,40 @@
+Make text description about your DB entities and relationships  
+
+Company 
+Not a DB, but related to all items, since it is the reason all of them exist.
+
+Product
+List of all the product that the company provides. Related to the company, and company’s sector that elaborates them. Related as well to the clients that buy them, and the distributors that distribute them.  
+
+Distributor
+List of the agents in between clients and company. In charge of products distribution in certain geographical areas. Related to the company whose products they distribute, to the products (since the distribute them), and to the clients that buy them.  
+
+Client 
+Last part of the commercial chain in the database. They are related to the company, since they sell their products, which are delivered through a distributor in their geographical area.  
+
+Supplyer 
+They provide the company of the necessary equipment / raw materials / materials to produce their products. They are since related to the products and the company. 
+
+Purchase orders 
+Registry of documents written by clients, so as to formalize a purchase order of a certain product/s to be delivered on a certain date, at a certain price. Related to clients, since they make them, to distributors, since they are assigned to one, to products, since they involve these.  
+
+Raw materials 
+Productive raw materials which are basic and directly related to the products production. Related then to product/s and supplier/s that provides it. Related as well to a certain company department that uses them. 
+
+Materials 
+Same as raw materials, but non directly related to the products production (Ex: in a crackers company, a computer is not directly related to the making of a cracker). 
+
+Invoices 
+List of the issued invoices up to date. Invoices are related to and involve: a product/s, a client, a purchase order/ several purchase orders, a dispatch note or several of them.  
+
+Dispatch note
+List of documents that state which products have been dispatch to which client on what date through which distributor. The product’s “papers” on a distribution route. Related then to a certain distributor, a product or products, a client, an invoice or several of them.    
+
+Sector
+List of all the departments the company is organized in. Related to the raw materials and materials that they use, and to the employees that work in them  
+
+ Employees 
+Listo of the amount of people that work in the company. Related to the sector they work in, and the company 
+
+Machine
+Stock of the amount of machine that the company has (Necessary for yearly balances). Related to sectors that uses it, and employees that uses it as well. 
